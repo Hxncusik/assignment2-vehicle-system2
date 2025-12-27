@@ -3,8 +3,8 @@ package kz.yerkebulan;
 public class Motorcycle extends Vehicle {
     private boolean hasSidecar;
 
-    public Motorcycle(String brand, int year, boolean hasSidecar) {
-        super(brand, year);
+    public Motorcycle(String brand, int year, boolean hasSidecar, Driver driver) {
+        super(brand, year, driver);
         this.hasSidecar = hasSidecar;
     }
 
